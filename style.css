@@ -1,108 +1,145 @@
 * {
     margin: 0;
-
-    /*  */
     padding: 0;
-    max-width: 1450px;
+    max-width: 600px;
+    height: auto;
+    font-family: poppins;
 }
 
-body {
-    background-color: 	#0a3f00;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-div {
-    background-color: #14208b;
-
-}
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    margin-right: 340px;
-    color:	mediumseagreen;
-}
-
-.cow {
-    width: 120px;
-    padding: 25px 25px;
-}
-
-#leaves {
-    width: 120px;
-    padding: 0px 3px;
-}
-
-#floresta {
-    width: 1450px;
-}
-
-.background-p{
-    line-height: 25px;
+header h2 {
     text-align: center;
-    background-color: deepskyblue;
-    width: 1450px;
-    height: 280px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #006400;
 }
 
-#camaleao {
-    overflow: hidden;
-    rotate: -5deg;
-    padding: 8px;
+header p {
+    color: #e2e2e2;
+    padding: 0px 0px 5px 0px;
+}
+
+.header-container {
+    background-color: #121a26;
+    text-align: center;
+    /* Criando uma classe para alinhar a imagem e objetos ao centro */
+}
+
+.header-container img {
+    border: 2px solid slateblue;
+    width: 410px;
+    height: auto;
+    transition: 00.5s ease;
+}
+
+.header-container img:hover {
+    box-shadow: 0 0 15px slateblue;
+    /* Colocando neon em volta de borda no css */
+}
+
+.nav-container {
+    position: sticky;
+    /* Elemento que usamos para que o nav siga no rolamento da pagina */
+    top: 0;
+    /* Elemento usado para que não sai do topo */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    /* Para ter mais flexibilidade em mover os objetos, itens e textos */
+    justify-content: space-between;
+    /* Espaçamento de um lado ao outro */
+    flex-direction: row;
+    /* Usado para menus de navegações horizontais (Usado com display flex) */
     align-items: center;
-    width: 200px;
-    
-    cursor: pointer;
+    /* Alinhar verticalmente ao centro */
+    background-color: #006400;
 }
 
-#camaleao img {
-    width: 25%;
-    transition: 00.2s;
+nav a {
+    color: white;
+    text-decoration: none;
+    /* Remover underline dos links */
+    display: inline-block;
+    /* Criar uma linha horizontal com espaçamento */
+    margin: 15px;
+    /* Espaçamento dos links */
+    transition: 00.8s ease;
 }
 
-#camaleao:hover {
+nav a:hover {
+    color: #35bd33;
+}
+nav img {
+    width: 50px;
+    padding: 0px 160px 0px 0px;
+    transition: 00.5s ease;
+    /* Adicionando transição crescente a imagem */
+}
+
+nav img:hover {
     transform: scale(1.1);
+    /* Adicionando transição crescente a imagem */
 }
 
-#cogumelo {
-    border: none;
-    border: 2px solid #fff;
-    width: 350px;
+nav h1 {
+    padding: 0 20px;
+    color: white;
+}
+
+.bio-container {
+    background-color: #121a26;
+    text-align: center;
+}
+
+.bio-container h2 {
+    color: #006400;
+}
+
+#dna {
+    width: 410px;
+    height: 250px;
+    border: 2px solid slateblue;
+    transition: 00.5s ease;
+}
+
+#dna:hover {
+    box-shadow: 0 0 15px slateblue;
+}
+
+.bio-container p {
+    color: #e2e2e2;
+    padding: 0px 5px 0px 0px;
+}
+
+.nature-container {
+    background-color: #121a26;
+    text-align: center;
+}
+
+.nature-container h2 {
+    color: #006400;
+}
+
+.nature-container img {
+    width: 410px;
+    height: 260px;
+    border: 2px solid slateblue;
+    transition: 00.5s ease;
+}
+
+.nature-container img:hover {
+    box-shadow: 0 0 15px slateblue;
+}
+
+.nature-container p {
+    color: #e2e2e2;
+    padding: 0px 0px 5px 0px;
 }
 
 .final {
+    background-color: #006400 ;
     text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-button {
-    border: none;
-    outline: none;
-    background: transparent;
-    border: 1px solid crimson;
-    color: white;
-    transition: 00.5s;
-    cursor: pointer;
-    border-radius: 8px;
-    padding: 8px 20px;
-    
-}
-
-button:hover {
-    background-color: crimson;
-    color: black;
-}
-
-section {
-  
-    
+span {
+    font-weight: 500;
+    color:white;
+    line-height: 30px;
 }

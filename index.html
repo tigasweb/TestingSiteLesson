@@ -2,6 +2,10 @@
 <html lang="pt-BR">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">   
+    <!-- Fontes -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testing</title>
@@ -10,54 +14,45 @@
 </head>
 
 <body>
-    <div>
-        <header>
-            <img class="cow" src="images/cow.png" alt="cow">
-            <h1>A Natureza e seus beneficios</h1>
-
-            <ul>
-                <li>
-                    <a href="">Saiba mais.</a>
-                </li>
-                <li>
-                    <a href="">Saiba mais.</a>
-                </li>
-                <li>
-                    <a href="">Saiba mais.</a>
-                </li>
-            </ul>
-        </header>
+    <div class="header-container">
+    <header>
+        <h2>Biologia e Natureza</h2>
+        <img src="images/selvaimg.jpg" alt="">
+        <p>A biologia é a parte das ciências da natureza que estuda os seres vivos, o meio ambiente e a interação entre esses dois elementos, investigando a origem e a evolução da vida terrestre, como os organismos vivos funcionam e como interagem com o ambiente onde vivem.</p>
+    </header>
     </div>
 
     <main>
-        <section>
-
-            <img id="floresta" src="images/floresta.png" alt="imagem de floresta">
-
-            <div class="background-p">
-                <h2>Natureza</h2>
-                <p>A natureza é essencial para a vida de todos os seres vivos que dependem dos seus recursos. <br> Isto
-                    é, água potável, florestas, outros animais, <br> alimentos, oxigênio, clima e solo fértil. Além dos
-                    elementos naturais, <br> os processos naturais como o ciclo da água, <br> o ciclo do carbono e o
-                    ciclo dos nutrientes são fundamentais.</p>
-                <img id="camaleao" src="images/camaleao.png" alt="imagem camaleao">
-            </div>
-
-            <img id="selva" src="images/selvaimg.jpg" alt="selva">
-
-        </section>
-
+    <nav class="nav-container">
+        <h1>BioNatureza</h1>
+        <img id="tree" src="images/tree.png" alt="tree">
+        <ul>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#"><li>Contato</li></a>
+        </ul>
+    </nav>
+    <section>
+        <article>
+        <div class="bio-container">
+        <h2>Diversidades biológicas</h2>
+        <img id="dna" src="images/dna.png" alt="dna">
+        <p>Diversidade Biológica ou Biodiversidade é o conjunto de todos os seres vivos do planeta. Refere-se à variedade dos reinos, filos, classes, ordens, famílias, gêneros e espécies, assim como a populações e comunidades específicas, incluindo toda a fauna e flora terrestres.</p>
+        </div>
+        <div class="nature-container">
+        <h2>Natureza</h2>
+        <img src="images/nature.jpg" alt="nature">
+        <p>A proximidade com a natureza tem um impacto positivo na saúde humana física e mental, como mostra a neurociência. A exposição a áreas verdes, ao ar limpo, a ambientes abertos, ao sol e a temperaturas menos abafadas contribui para a percepção dos mais variados estímulos sensoriais, como visual, auditivo e olfativo.</p>
+        </div>
+        </article>
+    </section>
     </main>
 
-    <div class="final">
-        <footer>
-            <img id="cogumelo" src="images/gugunelo.jpg" alt="imagem de cogumelo">
-            <h2>Trabalho feito por Tiago P. e Kaick</h2>
-            <a href="https://pt.wikipedia.org/wiki/Natureza">
-            <button type="submit" value="Saiba mais">Saiba mais</button>
-            </a>
-        </footer>
-    </div>
+    <footer>
+        <div class="final">
+            <p><span>natureproject@hotmail.com</span></p>
+            <p><span>Direitos autorais (Kaick S. e Tiago P.)</span></p>
+        </div>
+    </footer>
 </body>
 
 </html>
