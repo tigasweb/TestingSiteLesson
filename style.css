@@ -68,13 +68,13 @@ nav a:hover {
 }
 nav img {
     width: 50px;
-    padding: 0px 160px 0px 0px;
+    margin-right: 165px;
     transition: 00.5s ease;
     /* Adicionando transição crescente a imagem */
 }
 
 nav img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     /* Adicionando transição crescente a imagem */
 }
 
